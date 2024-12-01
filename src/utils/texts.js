@@ -1,3 +1,21 @@
+import kattyMartinezImage from '../assets/images/projects/katty-martinez.webp'
+import profesorBuhoImage from '../assets/images/projects/profesor-buho.webp'
+import whatsappChatImage from '../assets/images/projects/whatsapp.webp'
+import calculatorImage from '../assets/images/projects/calculator.webp'
+import freeCodeCampImage from '../assets/images/projects/freecodecamp.webp'
+import hundredProjectsImage from '../assets/images/projects/100-projects.webp'
+import linkedinIcon from '../assets/icons/social/linkedin.svg'
+import githubIcon from '../assets/icons/social/github.svg'
+import googleMessagesIcon from '../assets/icons/social/googlemessages.svg'
+import html5Icon from '../assets/icons/techs/html5.svg'
+import css3Icon from '../assets/icons/techs/css3.svg'
+import javascriptIcon from '../assets/icons/techs/javascript.svg'
+import pythonIcon from '../assets/icons/techs/python.svg'
+import reactIcon from '../assets/icons/techs/react.svg'
+import tailwindcssIcon from '../assets/icons/techs/tailwindcss.svg'
+import npmIcon from '../assets/icons/techs/npm.svg'
+import gitIcon from '../assets/icons/techs/git.svg'
+
 export const plainTexts = {
   es: {
     header: {
@@ -56,7 +74,7 @@ export const plainTexts = {
             ],
             link: "https://kattymartinez.github.io/",
             githubLink: "https://github.com/bryanquille/kattymartinez.github.io",
-            referenceImg: "/src/assets/images/projects/katty-martinez.webp",
+            referenceImg: kattyMartinezImage,
           },
           {
             name: "Profesor Búho",
@@ -68,7 +86,7 @@ export const plainTexts = {
             ],
             link: "https://profesorbuho.github.io/",
             githubLink: "https://github.com/profesorbuho/profesorbuho.github.io",
-            referenceImg: "/src/assets/images/projects/profesor-buho.webp",
+            referenceImg: profesorBuhoImage,
           },
           {
             name: "Abrir chat de WhatsApp",
@@ -80,7 +98,7 @@ export const plainTexts = {
             ],
             link: "https://bryanquille.github.io/whatsapp-chat-opener/",
             githubLink: "https://github.com/bryanquille/whatsapp-chat-opener",
-            referenceImg: "/src/assets/images/projects/whatsapp.webp",
+            referenceImg: whatsappChatImage,
           },
           {
             name: "Calculadora",
@@ -92,7 +110,7 @@ export const plainTexts = {
             ],
             link: "https://bryanquille.github.io/calculator/",
             githubLink: "https://github.com/bryanquille/calculator",
-            referenceImg: "/src/assets/images/projects/calculator.webp",
+            referenceImg: calculatorImage,
           },
           {
             name: "Proyectos en freeCodeCamp",
@@ -104,7 +122,7 @@ export const plainTexts = {
             ],
             link: "https://www.freecodecamp.org/fcc7f704fa5-2af0-4e97-bd02-87ce284177f4",
             githubLink: "",
-            referenceImg: "/src/assets/images/projects/freecodecamp.webp",
+            referenceImg: freeCodeCampImage,
           },
         ],
         hundredProjects: {
@@ -120,7 +138,7 @@ export const plainTexts = {
             link: "https://bryanquille.github.io/100-days-html-css-js/day-number/",
             githubLink: "https://github.com/bryanquille/100-days-html-css-js/tree/main/day-number"
           },
-          referenceImg: "/src/assets/images/projects/100-projects.webp",
+          referenceImg: hundredProjectsImage,
         }
       },
       skills: {
@@ -221,7 +239,7 @@ export const plainTexts = {
             ],
             link: "https://kattymartinez.github.io/",
             githubLink: "https://github.com/bryanquille/kattymartinez.github.io",
-            referenceImg: "/src/assets/images/projects/katty-martinez.webp",
+            referenceImg: kattyMartinezImage,
           },
           {
             name: "Profesor Búho",
@@ -233,7 +251,7 @@ export const plainTexts = {
             ],
             link: "https://profesorbuho.github.io/",
             githubLink: "https://github.com/profesorbuho/profesorbuho.github.io",
-            referenceImg: "/src/assets/images/projects/profesor-buho.webp",
+            referenceImg: profesorBuhoImage,
           },
           {
             name: "Whatsapp Chat Opener",
@@ -245,7 +263,7 @@ export const plainTexts = {
             ],
             link: "https://bryanquille.github.io/whatsapp-chat-opener/",
             githubLink: "https://github.com/bryanquille/whatsapp-chat-opener",
-            referenceImg: "/src/assets/images/projects/whatsapp.webp",
+            referenceImg: whatsappChatImage,
           },
           {
             name: "Calculator",
@@ -257,7 +275,7 @@ export const plainTexts = {
             ],
             link: "https://bryanquille.github.io/calculator/",
             githubLink: "https://github.com/bryanquille/calculator",
-            referenceImg: "/src/assets/images/projects/calculator.webp",
+            referenceImg: calculatorImage,
           },
           {
             name: "freeCodeCamp projects",
@@ -269,7 +287,7 @@ export const plainTexts = {
             ],
             link: "https://www.freecodecamp.org/fcc7f704fa5-2af0-4e97-bd02-87ce284177f4",
             githubLink: "",
-            referenceImg: "/src/assets/images/projects/freecodecamp.webp",
+            referenceImg: freeCodeCampImage,
           },
         ],
         hundredProjects: {
@@ -286,7 +304,7 @@ export const plainTexts = {
             link: "https://bryanquille.github.io/100-days-html-css-js/day-number/",
             githubLink: "https://github.com/bryanquille/100-days-html-css-js/tree/main/day-number"
           },
-          referenceImg: "/src/assets/images/projects/100-projects.webp",
+          referenceImg: hundredProjectsImage,
         }
       },
       skills: {
@@ -335,15 +353,15 @@ export const plainTexts = {
 export const social = [
   {
     name: "LinkedIn",
-    src: "/src/assets/icons/social/linkedin.svg",
+    src: linkedinIcon,
   },
   {
     name: "GitHub",
-    src: "/src/assets/icons/social/github.svg",
+    src: githubIcon,
   },
   {
     name: "Google Messages",
-    src: "/src/assets/icons/social/googlemessages.svg",
+    src: googleMessagesIcon,
   },
 ]
 
@@ -354,7 +372,7 @@ export const techs = [
       en: "HTML5 logo",
       es: "Logotipo de HTML5"
     },
-    src: "/src/assets/icons/techs/html5.svg",
+    src: html5Icon,
   },
   {
     name: "CSS3",
@@ -362,7 +380,7 @@ export const techs = [
       en: "CSS3 logo",
       es: "Logotipo de CSS3"
     },
-    src: "/src/assets/icons/techs/css3.svg",
+    src: css3Icon,
   },
   {
     name: "JavaScript",
@@ -370,7 +388,7 @@ export const techs = [
       en: "JavaScript logo",
       es: "Logotipo de JavaScript"
     },
-    src: "/src/assets/icons/techs/javascript.svg",
+    src: javascriptIcon,
   },
   {
     name: "Python",
@@ -378,7 +396,7 @@ export const techs = [
       en: "Python logo",
       es: "Logotipo de Python"
     },
-    src: "/src/assets/icons/techs/python.svg"
+    src: pythonIcon,
   },
   {
     name: "React",
@@ -386,7 +404,7 @@ export const techs = [
       en: "React logo",
       es: "Logotipo de React"
     },
-    src: "/src/assets/icons/techs/react.svg"
+    src: reactIcon,
   },
   {
     name: "Tailwindcss",
@@ -394,7 +412,7 @@ export const techs = [
       en: "Tailwindcss logo",
       es: "Logotipo de Tailwindcss"
     },
-    src: "/src/assets/icons/techs/tailwindcss.svg"
+    src: tailwindcssIcon,
   },
   {
     name: "npm",
@@ -402,7 +420,7 @@ export const techs = [
       en: "npm logo",
       es: "Logotipo de npm"
     },
-    src: "/src/assets/icons/techs/npm.svg",
+    src: npmIcon,
   },
   {
     name: "Git",
@@ -410,7 +428,7 @@ export const techs = [
       en: "Git logo",
       es: "Logotipo de Git"
     },
-    src: "/src/assets/icons/techs/git.svg",
+    src: gitIcon,
   },
   {
     name: "GitHub",
@@ -418,6 +436,6 @@ export const techs = [
       en: "GitHub logo",
       es: "Logotipo de GitHub"
     },
-    src: "/src/assets/icons/social/github.svg",
+    src: githubIcon,
   },
 ]

@@ -1,0 +1,115 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 100%;
+    max-width: 430px;
+    height: 100%;
+    min-height: 100vh;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    background-color: var(--Glass-color);
+    box-shadow: -2px 0 10px var(--First-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar--hidden {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+}
+
+.navbar--visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0%);
+}
+
+.navlist {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    list-style-type: none;
+    backdrop-filter: blur(5px);
+}
+
+.navlink {
+    position: relative;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: inherit;
+}
+
+.navlink::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    height: 5px;
+    border-radius: 50px;
+    background: var(--First-color);
+    transform: scale(0);
+    transition: transform 0.25s linear;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        position: relative;
+        right: unset;
+        width: unset;
+        max-width: unset;
+        height: unset;
+        min-height: unset;
+        display: unset;
+        place-items: unset;
+        background-color: unset;
+        box-shadow: unset;
+    }
+    
+    .navbar--hidden {
+        opacity: 1;
+        visibility: visible;
+        transform: unset;
+    }
+    
+    .navbar--visible {
+        transform: unset;
+    }
+    
+    .navlist {
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 2.5rem;
+        backdrop-filter: unset;
+    }
+    
+    .navlink {
+        font-size: 1.2rem;
+    }
+
+    .navlink::before {
+        height: 4px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navlist {
+        gap: 3.5rem;
+    }
+    
+    .navlink {
+        font-size: 1.3rem;
+    }
+}
+
+.navlink:hover::before {
+    transform: scale(1);
+}

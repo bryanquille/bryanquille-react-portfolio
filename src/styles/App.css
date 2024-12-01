@@ -1,0 +1,79 @@
+.aboutme,
+.projects,
+.skills,
+.contact {
+    width: 100%;
+    margin-bottom: -5rem;
+    padding: 5rem 1rem;
+}
+
+.footer {
+    padding: 1.2rem 1rem;
+}
+
+.title--2 {
+    width: 100%;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+@media (min-width: 768px) {
+    .header,
+    .aboutme,
+    .projects,
+    .skills,
+    .contact,
+    .footer {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 820px) {
+    .header,
+    .aboutme,
+    .projects,
+    .skills,
+    .contact,
+    .footer {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header,
+    .aboutme,
+    .projects,
+    .skills,
+    .contact,
+    .footer {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header,
+    .aboutme,
+    .projects,
+    .skills,
+    .contact,
+    .footer {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .header,
+    .aboutme,
+    .projects,
+    .skills,
+    .contact,
+    .footer {
+        padding-left: 17rem;
+        padding-right: 17rem;
+    }
+}

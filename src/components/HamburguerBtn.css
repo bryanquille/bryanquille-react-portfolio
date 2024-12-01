@@ -1,0 +1,42 @@
+.hamburguer--btn {
+    position: relative;
+    z-index: 20;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 0;
+    background-color: transparent;
+}
+
+.bar {
+    width: 35px;
+    height: 4px;
+    display: block;
+    border-radius: 5px;
+    background-color: var(--Fourth-color);
+    transition: all 0.4s;
+}
+
+.convert--xtop {
+    margin-bottom: -4.5px;
+    transform: rotate(45deg);
+}
+
+.convert--xmiddle {
+    position: fixed;
+    opacity: 0;
+    visibility: 0;
+    transform: translateX(100%);
+}
+
+.convert--xbottom {
+    margin-top: -4.5px;
+    transform: rotate(-45deg);
+}
+
+@media (min-width: 768px) {
+    .hamburguer--btn {
+        display: none;
+    }
+}

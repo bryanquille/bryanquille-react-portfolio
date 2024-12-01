@@ -1,0 +1,92 @@
+.contact--desc{
+    width: 100%;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.contact--form {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding: 0 2rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.contact--labels {
+    display: block;
+    margin-bottom: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.contact--input,
+.contact--textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    font-size: 1.1rem;
+    font-family: 'Inconsolata', monospace;
+    background-color: var(--Sixth-color);
+}
+
+.contact--btn {
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border-color: var(--Second-color);
+    font-size: 1.2rem;
+    background-color: var(--Second-color);
+    color: var(--Third-color);
+    transition: all 0.2s ease-in;
+}
+
+.success--screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 5rem;
+    background-color: var(--Glass-color);
+    backdrop-filter: blur(5px);
+}
+
+.hidden--success {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .contact--form {
+        max-width: 450px;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 820px) {
+    .contact--form {
+        max-width: 480px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .contact--form {
+        max-width: 500px;
+    }
+}
+
+.contact--input:focus-visible,
+.contact--textarea:focus-visible {
+    outline-color: var(--First-color);
+    box-shadow: 0 0 3px 3px var(--First-color);
+}
+
+.contact--btn:hover {
+    border-color: var(--First-color);
+    background-color: var(--First-color);
+}

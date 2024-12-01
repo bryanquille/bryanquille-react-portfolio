@@ -1,0 +1,11 @@
+.cards--container {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+@media (min-height: 930px) and (min-width: 820px) {
+    .cards--container {
+        gap: 5rem;
+    }
+}

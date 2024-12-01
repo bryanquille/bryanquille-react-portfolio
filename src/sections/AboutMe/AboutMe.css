@@ -1,0 +1,125 @@
+.aboutme {
+    min-height: 100vh;
+}
+
+.title--1 {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.greeting {
+    display: inline-block;
+    font-size: 2.5rem;
+    word-spacing: 0.5rem;
+    color: var(--Fifth-color);
+}
+
+.my--name {
+    font-size: 3rem;
+    word-spacing: 0.5rem;
+}
+
+.highlight--letter {
+    font-size: 3.5rem;
+    color: var(--Second-color);
+}
+
+.profession {
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.social--links--container {
+    width: 70%;
+    max-width: 400px;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.social--link {
+    width: calc(100% / 3);
+    min-width: 3rem;
+}
+
+.social--icon {
+    transition: fill 0.2s ease-in-out;
+}
+
+.avatar {
+    width: 70%;
+    max-width: 350px;
+    border-radius: 50%;
+}
+
+@media (min-width: 820px) {
+    .aboutme {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .title--1 {
+        text-align: left;
+    }
+    
+    .profession {
+        text-align: left;
+        font-size: 1.8rem;
+    }
+    
+    .social--links--container {
+        width: 100%;
+        max-width: unset;
+        margin-bottom: 0;
+        justify-content: flex-start;
+    }
+    
+    .social--link {
+        width: 4rem;
+    }
+    
+    .avatar {
+        width: unset;
+        max-width: 330px;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-height: 930px) and (min-width: 820px) {
+    .aboutme {
+        min-height: 50vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .greeting {
+        font-size: 2.8rem;
+    }
+
+    .my--name {
+        font-size: 3.5rem;
+    }
+
+    .highlight--letter {
+        font-size: 4.2rem;
+    }
+
+    .profession {
+        font-size: 2.1rem;
+    }
+    
+    .social--link {
+        width: 4.2rem;
+    }
+    
+    .avatar {
+        max-width: 350px;
+        padding-right: 2rem;
+    }
+}
+
+.social--icon:hover {
+    fill: var(--First-color);
+}

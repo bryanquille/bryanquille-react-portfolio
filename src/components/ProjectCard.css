@@ -1,0 +1,69 @@
+.card {
+    width: 85%;
+    max-width: 280px;
+    height: 350px;
+    overflow: hidden;
+    border: 2px solid var(--Second-color);
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card--info,
+.title--3,
+.card--desc,
+.techs--container,
+.card--links--container {
+    width: 100%;
+}
+
+.card--info {
+    height: 100%;
+    margin-top: 260px;
+    padding: 1rem 1.5rem 1.5rem;
+    justify-content: space-between;
+    background-color: var(--Glass-color);
+    backdrop-filter: blur(3px);
+    transition: margin 0.3s ease;
+}
+
+.title--3 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.card--desc {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.techs--container {
+    margin-bottom: 1.2rem;
+    gap: 1rem;
+}
+
+.card--tech--img {
+    width: 2rem;
+}
+
+.card--links--container {
+    gap: 1.2rem;
+}
+
+.card--btn {
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.card:hover .card--info {
+    margin-top: 0;
+}
+
+.card--link:hover {
+    fill: var(--First-color)
+}

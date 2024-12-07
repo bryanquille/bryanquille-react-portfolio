@@ -1,4 +1,5 @@
 import propTypes from 'prop-types'
+import { HashLink as Link } from 'react-router-hash-link'
 import { plainTexts } from '../utils/texts'
 import { deleteSpacesFromText } from '../utils/deleteSpacesFromText'
 import './Navbar.css'
@@ -6,9 +7,9 @@ import './Navbar.css'
 const NavItem = ({ anchor, handleClick, children }) => {
   return (
     <li>
-      <a href={anchor} className='navlink' onClick={handleClick}>
+      <Link to={anchor} className='navlink' onClick={handleClick}>
         {children}
-      </a>
+      </Link>
     </li>
   )
 }
@@ -19,7 +20,7 @@ export const Navbar = ({ showMenu, handleClick, lang }) => {
       <ul className='navlist'>
         {
           plainTexts[lang].header.navbar.navItems.map(item => {
-            return <NavItem key={item} anchor={`#${deleteSpacesFromText(item)}`} handleClick={handleClick}>{item}</NavItem>
+            return <NavItem key={item} anchor={`/#${deleteSpacesFromText(item)}`} handleClick={handleClick}>{item}</NavItem>
           })
         }
       </ul>  

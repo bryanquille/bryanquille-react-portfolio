@@ -1,0 +1,23 @@
+.hundred--projects--page {
+    margin-bottom: auto;
+}
+
+.title--1 {
+    width: 100%;
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.hundred--description {
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.construction--img {
+    width: 90%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -9,10 +9,6 @@ export const Projects = ({ lang }) => {
   const cardInfo = projectsText.cardInfo
   const hundredProjectsInfo = projectsText.hundredProjects
 
-  const showProjects = () => {
-    console.log("It opens the modal to show 100 projects");
-  }
-
   return (
     <section className="flex--column projects" id={projectsText.id}>
       <h2 className="title--2">{projectsText.title}</h2>
@@ -40,7 +36,7 @@ export const Projects = ({ lang }) => {
             desc={hundredProjectsInfo.desc}
             techsList={getIconArray(hundredProjectsInfo.techsList, techs)}
             isLink={false}
-            showProjects={showProjects}
+            pageRoute='/hundred-projects'
             lang={lang}
           />
       </div>

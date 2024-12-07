@@ -347,6 +347,10 @@ export const plainTexts = {
       location: "Quito - Ecuador",
       year: "2024 - 2025"
     },
+    hundredProjectsPage: {
+      name: "100 Projects",
+      desc: "I made the challenge: 100 days of coding with HTML, CSS, and JavaScript, where I developed some projectos from different resources.",
+    }
   },
 }
 

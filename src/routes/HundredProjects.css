@@ -1,5 +1,7 @@
 .hundred--projects--page {
     margin-bottom: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .title--1 {
@@ -12,6 +14,12 @@
     width: 100%;
     margin-bottom: 2rem;
     text-align: center;
+    font-size: 1.1rem;
+}
+
+.hundred--projects--container {
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .construction--img {

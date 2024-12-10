@@ -1,16 +1,35 @@
 import propTypes from 'prop-types'
-import { plainTexts } from '../utils/texts'
-import inConstruction from '../assets/images/construction/in-construction.svg'
+import { getIconArray } from '../utils/getIconArray'
+import { hundredProjectsPageTexts, techs } from '../utils/texts'
+import { ProjectCard } from '../components/ProjectCard'
 import './HundredProjects.css'
 
 export const HundredProjects = ({ lang }) => {
-  const hundredProjectsPageTexts = plainTexts[lang].hundredProjectsPage
+  const text = hundredProjectsPageTexts[lang]
+  const links = text.links
   return (
     <main className='hundred--projects--page'>
-      <h1 className='title--1'>{hundredProjectsPageTexts.name}</h1>
-      <p className='hundred--description'>{hundredProjectsPageTexts.desc}</p>
-      <h2 className='title--2'>In construction</h2>
-      <img src={inConstruction} alt="Site in construction" className='construction--img' />
+      <h1 className='title--1'>{text.title}</h1>
+      <p className='hundred--description'>{text.description}</p>
+      <div className='flex--row hundred--projects--container'>
+        {
+          text.projects.map(({ name, day, imageSrc, techsList }) => {
+            return (
+              <ProjectCard 
+                key={day}
+                referenceImg={imageSrc}
+                name={name}
+                desc={day}
+                techsList={getIconArray(techsList, techs)}
+                link={links.link + day.toLowerCase().replace(' ', '-')}
+                githubLink={links.githubLink + day.toLowerCase().replace(' ', '-')}
+                isLink={true}
+                lang={lang}
+              />
+            )
+          })
+        }
+      </div>
     </main>
   )
 }

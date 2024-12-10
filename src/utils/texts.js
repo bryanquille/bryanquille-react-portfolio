@@ -1,9 +1,12 @@
+// Projects
 import kattyMartinezImage from '../assets/images/projects/katty-martinez.webp'
 import profesorBuhoImage from '../assets/images/projects/profesor-buho.webp'
 import whatsappChatImage from '../assets/images/projects/whatsapp.webp'
 import calculatorImage from '../assets/images/projects/calculator.webp'
 import freeCodeCampImage from '../assets/images/projects/freecodecamp.webp'
 import hundredProjectsImage from '../assets/images/projects/100-projects.webp'
+
+// Icons
 import linkedinIcon from '../assets/icons/social/linkedin.svg'
 import githubIcon from '../assets/icons/social/github.svg'
 import googleMessagesIcon from '../assets/icons/social/googlemessages.svg'
@@ -15,6 +18,13 @@ import reactIcon from '../assets/icons/techs/react.svg'
 import tailwindcssIcon from '../assets/icons/techs/tailwindcss.svg'
 import npmIcon from '../assets/icons/techs/npm.svg'
 import gitIcon from '../assets/icons/techs/git.svg'
+
+// 100 projects
+import day1 from '../assets/images/hundred-projects/day-1.webp'
+import day2 from '../assets/images/hundred-projects/day-2.webp'
+import day3 from '../assets/images/hundred-projects/day-3.webp'
+import day4 from '../assets/images/hundred-projects/day-4.webp'
+import day5 from '../assets/images/hundred-projects/day-5.webp'
 
 export const plainTexts = {
   es: {
@@ -443,3 +453,67 @@ export const techs = [
     src: githubIcon,
   },
 ]
+
+export const hundredProjectsPageTexts = {
+  es: {},
+  en: {
+    title: "100 Projects",
+    description: "In 2024, I took on the 100 Days of Code challenge, creating 100 projects with HTML, CSS, and JavaScript. I used resources like 100jsprojects.com, Frontend Mentor, AsmrProg-YT, and my own ideas, incorporating Tailwind CSS into several projects. My progress is tracked on GitHub and LinkedIn. Currently, I&apos;m refining simpler projects to create more polished and advanced versions.",
+    links: {
+      link: "https://bryanquille.github.io/100-days-html-css-js/",
+      githubLink: "https://github.com/bryanquille/100-days-html-css-js/tree/main/"
+    },
+    projects: [
+      {
+        name: "Testimonial Slider",
+        day: "Day 1",
+        imageSrc: day1,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Tip Calculator",
+        day: "Day 2",
+        imageSrc: day2,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Age Calculator",
+        day: "Day 3",
+        imageSrc: day3,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Recipe Book App",
+        day: "Day 4",
+        imageSrc: day4,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Dice Roll Simulator",
+        day: "Day 5",
+        imageSrc: day5,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+    ]
+  },
+}

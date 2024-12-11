@@ -25,6 +25,11 @@ import day2 from '../assets/images/hundred-projects/day-2.webp'
 import day3 from '../assets/images/hundred-projects/day-3.webp'
 import day4 from '../assets/images/hundred-projects/day-4.webp'
 import day5 from '../assets/images/hundred-projects/day-5.webp'
+import day6 from '../assets/images/hundred-projects/day-6.webp'
+import day7 from '../assets/images/hundred-projects/day-7.webp'
+import day8 from '../assets/images/hundred-projects/day-8.webp'
+import day9 from '../assets/images/hundred-projects/day-9.webp'
+import day10 from '../assets/images/hundred-projects/day-10.webp'
 
 export const plainTexts = {
   es: {
@@ -508,6 +513,56 @@ export const hundredProjectsPageTexts = {
         name: "Dice Roll Simulator",
         day: "Day 5",
         imageSrc: day5,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Pomodoro Timer",
+        day: "Day 6",
+        imageSrc: day6,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Rock-Paper-Scissors-Lizard-Spoke game",
+        day: "Day 7",
+        imageSrc: day7,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Simple Stopwatch",
+        day: "Day 8",
+        imageSrc: day8,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Weight Converter",
+        day: "Day 9",
+        imageSrc: day9,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Video trailer popup",
+        day: "Day 10",
+        imageSrc: day10,
         techsList: [
           "HTML5",
           "CSS3",

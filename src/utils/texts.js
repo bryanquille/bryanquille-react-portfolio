@@ -30,6 +30,11 @@ import day7 from '../assets/images/hundred-projects/day-7.webp'
 import day8 from '../assets/images/hundred-projects/day-8.webp'
 import day9 from '../assets/images/hundred-projects/day-9.webp'
 import day10 from '../assets/images/hundred-projects/day-10.webp'
+import day11 from '../assets/images/hundred-projects/day-11.webp'
+import day12 from '../assets/images/hundred-projects/day-12.webp'
+import day13 from '../assets/images/hundred-projects/day-13.webp'
+import day14 from '../assets/images/hundred-projects/day-14.webp'
+import day15 from '../assets/images/hundred-projects/day-15.webp'
 
 export const plainTexts = {
   es: {
@@ -563,6 +568,56 @@ export const hundredProjectsPageTexts = {
         name: "Video trailer popup",
         day: "Day 10",
         imageSrc: day10,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Temperature Converter",
+        day: "Day 11",
+        imageSrc: day11,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Tabs section",
+        day: "Day 12",
+        imageSrc: day12,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Sticky navbar",
+        day: "Day 13",
+        imageSrc: day13,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Step progress bar",
+        day: "Day 14",
+        imageSrc: day14,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Social Media Selector",
+        day: "Day 15",
+        imageSrc: day15,
         techsList: [
           "HTML5",
           "CSS3",

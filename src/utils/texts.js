@@ -40,6 +40,11 @@ import day17 from '../assets/images/hundred-projects/day-17.webp'
 import day18 from '../assets/images/hundred-projects/day-18.webp'
 import day19 from '../assets/images/hundred-projects/day-19.webp'
 import day20 from '../assets/images/hundred-projects/day-20.webp'
+import day21 from '../assets/images/hundred-projects/day-21.webp'
+import day22 from '../assets/images/hundred-projects/day-22.webp'
+import day23 from '../assets/images/hundred-projects/day-23.webp'
+import day24 from '../assets/images/hundred-projects/day-24.webp'
+import day25 from '../assets/images/hundred-projects/day-25.webp'
 
 export const plainTexts = {
   es: {
@@ -673,6 +678,56 @@ export const hundredProjectsPageTexts = {
         name: "Password generator",
         day: "Day 20",
         imageSrc: day20,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Random Emoji",
+        day: "Day 21",
+        imageSrc: day21,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Random color generator",
+        day: "Day 22",
+        imageSrc: day22,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Q-A section",
+        day: "Day 23",
+        imageSrc: day23,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Profile statistics",
+        day: "Day 24",
+        imageSrc: day24,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Photo gallery",
+        day: "Day 25",
+        imageSrc: day25,
         techsList: [
           "HTML5",
           "CSS3",

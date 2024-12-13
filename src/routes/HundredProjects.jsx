@@ -9,7 +9,7 @@ export const HundredProjects = ({ lang }) => {
   const links = text.links
   return (
     <main className='hundred--projects--page'>
-      <h1 className='title--1'>{text.title}</h1>
+      <h1 className='hp--title--1'>{text.title}</h1>
       <p className='hundred--description'>{text.description}</p>
       <div className='flex--row hundred--projects--container'>
         {

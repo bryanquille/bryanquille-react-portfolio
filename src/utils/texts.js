@@ -35,6 +35,11 @@ import day12 from '../assets/images/hundred-projects/day-12.webp'
 import day13 from '../assets/images/hundred-projects/day-13.webp'
 import day14 from '../assets/images/hundred-projects/day-14.webp'
 import day15 from '../assets/images/hundred-projects/day-15.webp'
+import day16 from '../assets/images/hundred-projects/day-16.webp'
+import day17 from '../assets/images/hundred-projects/day-17.webp'
+import day18 from '../assets/images/hundred-projects/day-18.webp'
+import day19 from '../assets/images/hundred-projects/day-19.webp'
+import day20 from '../assets/images/hundred-projects/day-20.webp'
 
 export const plainTexts = {
   es: {
@@ -618,6 +623,56 @@ export const hundredProjectsPageTexts = {
         name: "Social Media Selector",
         day: "Day 15",
         imageSrc: day15,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Sliderbar menu",
+        day: "Day 16",
+        imageSrc: day16,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Character counter",
+        day: "Day 17",
+        imageSrc: day17,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Random Quote",
+        day: "Day 18",
+        imageSrc: day18,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Random photos App",
+        day: "Day 19",
+        imageSrc: day19,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Password generator",
+        day: "Day 20",
+        imageSrc: day20,
         techsList: [
           "HTML5",
           "CSS3",

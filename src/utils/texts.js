@@ -45,6 +45,11 @@ import day22 from '../assets/images/hundred-projects/day-22.webp'
 import day23 from '../assets/images/hundred-projects/day-23.webp'
 import day24 from '../assets/images/hundred-projects/day-24.webp'
 import day25 from '../assets/images/hundred-projects/day-25.webp'
+import day26 from '../assets/images/hundred-projects/day-26.webp'
+import day27 from '../assets/images/hundred-projects/day-27.webp'
+import day28 from '../assets/images/hundred-projects/day-28.webp'
+import day29 from '../assets/images/hundred-projects/day-29.webp'
+import day30 from '../assets/images/hundred-projects/day-30.webp'
 
 export const plainTexts = {
   es: {
@@ -728,6 +733,56 @@ export const hundredProjectsPageTexts = {
         name: "Photo gallery",
         day: "Day 25",
         imageSrc: day25,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Notes App",
+        day: "Day 26",
+        imageSrc: day26,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Responsive menu",
+        day: "Day 27",
+        imageSrc: day27,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Multiplication app",
+        day: "Day 28",
+        imageSrc: day28,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Mouse event",
+        day: "Day 29",
+        imageSrc: day29,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Month calender",
+        day: "Day 30",
+        imageSrc: day30,
         techsList: [
           "HTML5",
           "CSS3",

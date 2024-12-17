@@ -60,6 +60,11 @@ import day37 from '../assets/images/hundred-projects/day-37.webp'
 import day38 from '../assets/images/hundred-projects/day-38.webp'
 import day39 from '../assets/images/hundred-projects/day-39.webp'
 import day40 from '../assets/images/hundred-projects/day-40.webp'
+import day41 from '../assets/images/hundred-projects/day-41.webp'
+import day42 from '../assets/images/hundred-projects/day-42.webp'
+import day43 from '../assets/images/hundred-projects/day-43.webp'
+import day44 from '../assets/images/hundred-projects/day-44.webp'
+import day45 from '../assets/images/hundred-projects/day-45.webp'
 
 export const plainTexts = {
   es: {
@@ -894,6 +899,57 @@ export const hundredProjectsPageTexts = {
         name: "Emoji rating",
         day: "Day 40",
         imageSrc: day40,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Drum kits",
+        day: "Day 41",
+        imageSrc: day41,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Dropdown navigation",
+        day: "Day 42",
+        imageSrc: day42,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
+        ],
+      },
+      {
+        name: "Double landing page",
+        day: "Day 43",
+        imageSrc: day43,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Dark mode",
+        day: "Day 44",
+        imageSrc: day44,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Coding jokes generator",
+        day: "Day 45",
+        imageSrc: day45,
         techsList: [
           "HTML5",
           "CSS3",

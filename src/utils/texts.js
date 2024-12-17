@@ -55,6 +55,11 @@ import day32 from '../assets/images/hundred-projects/day-32.webp'
 import day33 from '../assets/images/hundred-projects/day-33.webp'
 import day34 from '../assets/images/hundred-projects/day-34.webp'
 import day35 from '../assets/images/hundred-projects/day-35.webp'
+import day36 from '../assets/images/hundred-projects/day-36.webp'
+import day37 from '../assets/images/hundred-projects/day-37.webp'
+import day38 from '../assets/images/hundred-projects/day-38.webp'
+import day39 from '../assets/images/hundred-projects/day-39.webp'
+import day40 from '../assets/images/hundred-projects/day-40.webp'
 
 export const plainTexts = {
   es: {
@@ -838,6 +843,56 @@ export const hundredProjectsPageTexts = {
         name: "Images slider",
         day: "Day 35",
         imageSrc: day35,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Social media dashboard",
+        day: "Day 36",
+        imageSrc: day36,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Star trail animation",
+        day: "Day 37",
+        imageSrc: day37,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Feedback UI",
+        day: "Day 38",
+        imageSrc: day38,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "English dictionary",
+        day: "Day 39",
+        imageSrc: day39,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Emoji rating",
+        day: "Day 40",
+        imageSrc: day40,
         techsList: [
           "HTML5",
           "CSS3",

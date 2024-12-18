@@ -65,6 +65,11 @@ import day42 from '../assets/images/hundred-projects/day-42.webp'
 import day43 from '../assets/images/hundred-projects/day-43.webp'
 import day44 from '../assets/images/hundred-projects/day-44.webp'
 import day45 from '../assets/images/hundred-projects/day-45.webp'
+import day46 from '../assets/images/hundred-projects/day-46.webp'
+import day47 from '../assets/images/hundred-projects/day-47.webp'
+import day48 from '../assets/images/hundred-projects/day-48.webp'
+import day49 from '../assets/images/hundred-projects/day-49.webp'
+import day50 from '../assets/images/hundred-projects/day-50.webp'
 
 export const plainTexts = {
   es: {
@@ -950,6 +955,56 @@ export const hundredProjectsPageTexts = {
         name: "Coding jokes generator",
         day: "Day 45",
         imageSrc: day45,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Currency converter",
+        day: "Day 46",
+        imageSrc: day46,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Counter",
+        day: "Day 47",
+        imageSrc: day47,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Button ripple effect",
+        day: "Day 48",
+        imageSrc: day48,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "BMI calculator",
+        day: "Day 49",
+        imageSrc: day49,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Blurred background popup",
+        day: "Day 50",
+        imageSrc: day50,
         techsList: [
           "HTML5",
           "CSS3",

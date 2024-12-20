@@ -70,6 +70,11 @@ import day47 from '../assets/images/hundred-projects/day-47.webp'
 import day48 from '../assets/images/hundred-projects/day-48.webp'
 import day49 from '../assets/images/hundred-projects/day-49.webp'
 import day50 from '../assets/images/hundred-projects/day-50.webp'
+import day51 from '../assets/images/hundred-projects/day-51.webp'
+import day52 from '../assets/images/hundred-projects/day-52.webp'
+import day53 from '../assets/images/hundred-projects/day-53.webp'
+import day54 from '../assets/images/hundred-projects/day-54.webp'
+import day55 from '../assets/images/hundred-projects/day-55.webp'
 
 export const plainTexts = {
   es: {
@@ -1005,6 +1010,56 @@ export const hundredProjectsPageTexts = {
         name: "Blurred background popup",
         day: "Day 50",
         imageSrc: day50,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Background video",
+        day: "Day 51",
+        imageSrc: day51,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Auto text effect animation",
+        day: "Day 52",
+        imageSrc: day52,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Animated search bar",
+        day: "Day 53",
+        imageSrc: day53,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Anime pics generator",
+        day: "Day 54",
+        imageSrc: day54,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Rotating image gallery",
+        day: "Day 55",
+        imageSrc: day55,
         techsList: [
           "HTML5",
           "CSS3",

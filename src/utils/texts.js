@@ -75,6 +75,11 @@ import day52 from '../assets/images/hundred-projects/day-52.webp'
 import day53 from '../assets/images/hundred-projects/day-53.webp'
 import day54 from '../assets/images/hundred-projects/day-54.webp'
 import day55 from '../assets/images/hundred-projects/day-55.webp'
+import day56 from '../assets/images/hundred-projects/day-56.webp'
+import day57 from '../assets/images/hundred-projects/day-57.webp'
+import day58 from '../assets/images/hundred-projects/day-58.webp'
+import day59 from '../assets/images/hundred-projects/day-59.webp'
+import day60 from '../assets/images/hundred-projects/day-60.webp'
 
 export const plainTexts = {
   es: {
@@ -1060,6 +1065,56 @@ export const hundredProjectsPageTexts = {
         name: "Rotating image gallery",
         day: "Day 55",
         imageSrc: day55,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Background image scroll",
+        day: "Day 56",
+        imageSrc: day56,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Basic calculator",
+        day: "Day 57",
+        imageSrc: day57,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Analogue clock",
+        day: "Day 58",
+        imageSrc: day58,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "New Year countdown",
+        day: "Day 59",
+        imageSrc: day59,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Digital clock",
+        day: "Day 60",
+        imageSrc: day60,
         techsList: [
           "HTML5",
           "CSS3",

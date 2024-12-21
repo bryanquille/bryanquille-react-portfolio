@@ -80,6 +80,11 @@ import day57 from '../assets/images/hundred-projects/day-57.webp'
 import day58 from '../assets/images/hundred-projects/day-58.webp'
 import day59 from '../assets/images/hundred-projects/day-59.webp'
 import day60 from '../assets/images/hundred-projects/day-60.webp'
+import day61 from '../assets/images/hundred-projects/day-61.webp'
+import day62 from '../assets/images/hundred-projects/day-62.webp'
+import day63 from '../assets/images/hundred-projects/day-63.webp'
+import day64 from '../assets/images/hundred-projects/day-64.webp'
+import day65 from '../assets/images/hundred-projects/day-65.webp'
 
 export const plainTexts = {
   es: {
@@ -857,6 +862,7 @@ export const hundredProjectsPageTexts = {
           "HTML5",
           "CSS3",
           "JavaScript",
+          "Tailwindcss",
         ],
       },
       {
@@ -1119,6 +1125,58 @@ export const hundredProjectsPageTexts = {
           "HTML5",
           "CSS3",
           "JavaScript",
+        ],
+      },
+      {
+        name: "To Do App",
+        day: "Day 61",
+        imageSrc: day61,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Weather App",
+        day: "Day 62",
+        imageSrc: day62,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Mortgage calculator",
+        day: "Day 63",
+        imageSrc: day63,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
+        ],
+      },
+      {
+        name: "Arithmetic arranger",
+        day: "Day 64",
+        imageSrc: day64,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Contact form",
+        day: "Day 65",
+        imageSrc: day65,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
         ],
       },
     ]

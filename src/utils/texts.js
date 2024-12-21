@@ -2,7 +2,7 @@
 import kattyMartinezImage from '../assets/images/projects/katty-martinez.webp'
 import profesorBuhoImage from '../assets/images/projects/profesor-buho.webp'
 import whatsappChatImage from '../assets/images/projects/whatsapp.webp'
-import calculatorImage from '../assets/images/projects/calculator.webp'
+import tictactoeImage from '../assets/images/projects/tic-tac-toe.webp'
 import freeCodeCampImage from '../assets/images/projects/freecodecamp.webp'
 import hundredProjectsImage from '../assets/images/projects/100-projects.webp'
 
@@ -171,16 +171,16 @@ export const plainTexts = {
             referenceImg: whatsappChatImage,
           },
           {
-            name: "Calculadora",
-            desc: "Proyecto creado para poner a prueba mis habilidades iniciales.",
+            name: "Tres en raya",
+            desc: "El clásico juego de 3 en raya. (Tic Tac Toe)",
             techsList: [
-              "HTML5",
+              "React",
               "CSS3",
               "JavaScript",
             ],
-            link: "https://bryanquille.github.io/calculator/",
-            githubLink: "https://github.com/bryanquille/calculator",
-            referenceImg: calculatorImage,
+            link: "https://tictactoe-bqgame.netlify.app/",
+            githubLink: "https://github.com/bryanquille/tic-tac-toe",
+            referenceImg: tictactoeImage,
           },
           {
             name: "Proyectos en freeCodeCamp",
@@ -336,16 +336,16 @@ export const plainTexts = {
             referenceImg: whatsappChatImage,
           },
           {
-            name: "Calculator",
-            desc: "A simple calculator for performing my skills.",
+            name: "Tic Tac Toe",
+            desc: "The classic three-in-a-row game!",
             techsList: [
-              "HTML5",
+              "React",
               "CSS3",
               "JavaScript",
             ],
-            link: "https://bryanquille.github.io/calculator/",
-            githubLink: "https://github.com/bryanquille/calculator",
-            referenceImg: calculatorImage,
+            link: "https://tictactoe-bqgame.netlify.app/",
+            githubLink: "https://github.com/bryanquille/tic-tac-toe",
+            referenceImg: tictactoeImage,
           },
           {
             name: "freeCodeCamp projects",

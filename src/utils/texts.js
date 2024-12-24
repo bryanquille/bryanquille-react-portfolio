@@ -85,6 +85,11 @@ import day62 from '../assets/images/hundred-projects/day-62.webp'
 import day63 from '../assets/images/hundred-projects/day-63.webp'
 import day64 from '../assets/images/hundred-projects/day-64.webp'
 import day65 from '../assets/images/hundred-projects/day-65.webp'
+import day66 from '../assets/images/hundred-projects/day-66.webp'
+import day67 from '../assets/images/hundred-projects/day-67.webp'
+import day68 from '../assets/images/hundred-projects/day-68.webp'
+import day69 from '../assets/images/hundred-projects/day-69.webp'
+import day70 from '../assets/images/hundred-projects/day-70.webp'
 
 export const plainTexts = {
   es: {
@@ -1172,6 +1177,60 @@ export const hundredProjectsPageTexts = {
         name: "Contact form",
         day: "Day 65",
         imageSrc: day65,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
+        ],
+      },
+      {
+        name: "Newsletter sign-up form",
+        day: "Day 66",
+        imageSrc: day66,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
+        ],
+      },
+      {
+        name: "Narcissistic number checker",
+        day: "Day 67",
+        imageSrc: day67,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Time tracking dashboard",
+        day: "Day 68",
+        imageSrc: day68,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
+        ],
+      },
+      {
+        name: "Article preview component",
+        day: "Day 69",
+        imageSrc: day69,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
+        ],
+      },
+      {
+        name: "Toggle pricing component",
+        day: "Day 70",
+        imageSrc: day70,
         techsList: [
           "HTML5",
           "CSS3",

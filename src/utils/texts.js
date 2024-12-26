@@ -90,6 +90,16 @@ import day67 from '../assets/images/hundred-projects/day-67.webp'
 import day68 from '../assets/images/hundred-projects/day-68.webp'
 import day69 from '../assets/images/hundred-projects/day-69.webp'
 import day70 from '../assets/images/hundred-projects/day-70.webp'
+import day71 from '../assets/images/hundred-projects/day-71.webp'
+import day72 from '../assets/images/hundred-projects/day-72.webp'
+import day73 from '../assets/images/hundred-projects/day-73.webp'
+import day74 from '../assets/images/hundred-projects/day-74.webp'
+import day75 from '../assets/images/hundred-projects/day-75.webp'
+import day76 from '../assets/images/hundred-projects/day-76.webp'
+import day77 from '../assets/images/hundred-projects/day-77.webp'
+import day78 from '../assets/images/hundred-projects/day-78.webp'
+import day79 from '../assets/images/hundred-projects/day-79.webp'
+import day80 from '../assets/images/hundred-projects/day-80.webp'
 
 export const plainTexts = {
   es: {
@@ -1236,6 +1246,109 @@ export const hundredProjectsPageTexts = {
           "CSS3",
           "JavaScript",
           "Tailwindcss",
+        ],
+      },
+      {
+        name: "Encrypt-Decrypt text app",
+        day: "Day 71",
+        imageSrc: day71,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Interactive card details form",
+        day: "Day 72",
+        imageSrc: day72,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Base apparel coming soon",
+        day: "Day 73",
+        imageSrc: day73,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
+        ],
+      },
+      {
+        name: "Expenses chart component",
+        day: "Day 74",
+        imageSrc: day74,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Nationality name app",
+        day: "Day 75",
+        imageSrc: day75,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Intro component sign-up",
+        day: "Day 76",
+        imageSrc: day76,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
+        ],
+      },
+      {
+        name: "USA phone number validator",
+        day: "Day 77",
+        imageSrc: day77,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Documentation page",
+        day: "Day 78",
+        imageSrc: day78,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "News homepage",
+        day: "Day 79",
+        imageSrc: day79,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
+        ],
+      },
+      {
+        name: "Viewport calculator",
+        day: "Day 80",
+        imageSrc: day80,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
         ],
       },
     ]

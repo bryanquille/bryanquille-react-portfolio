@@ -100,6 +100,16 @@ import day77 from '../assets/images/hundred-projects/day-77.webp'
 import day78 from '../assets/images/hundred-projects/day-78.webp'
 import day79 from '../assets/images/hundred-projects/day-79.webp'
 import day80 from '../assets/images/hundred-projects/day-80.webp'
+import day81 from '../assets/images/hundred-projects/day-81.webp'
+import day82 from '../assets/images/hundred-projects/day-82.webp'
+import day83 from '../assets/images/hundred-projects/day-83.webp'
+import day84 from '../assets/images/hundred-projects/day-84.webp'
+import day85 from '../assets/images/hundred-projects/day-85.webp'
+import day86 from '../assets/images/hundred-projects/day-86.webp'
+import day87 from '../assets/images/hundred-projects/day-87.webp'
+import day88 from '../assets/images/hundred-projects/day-88.webp'
+import day89 from '../assets/images/hundred-projects/day-89.webp'
+import day90 from '../assets/images/hundred-projects/day-90.webp'
 
 export const plainTexts = {
   es: {
@@ -1345,6 +1355,106 @@ export const hundredProjectsPageTexts = {
         name: "Viewport calculator",
         day: "Day 80",
         imageSrc: day80,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Gradient generator",
+        day: "Day 81",
+        imageSrc: day81,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Battery device detector",
+        day: "Day 82",
+        imageSrc: day82,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Captcha app",
+        day: "Day 83",
+        imageSrc: day83,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Scroll progress indicator",
+        day: "Day 84",
+        imageSrc: day84,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "URL shortener app",
+        day: "Day 85",
+        imageSrc: day85,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Internet speed test",
+        day: "Day 86",
+        imageSrc: day86,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Chart generator",
+        day: "Day 87",
+        imageSrc: day87,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "QR code generator",
+        day: "Day 88",
+        imageSrc: day88,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Rick & Morty app",
+        day: "Day 89",
+        imageSrc: day89,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "QR code reader",
+        day: "Day 90",
+        imageSrc: day90,
         techsList: [
           "HTML5",
           "CSS3",

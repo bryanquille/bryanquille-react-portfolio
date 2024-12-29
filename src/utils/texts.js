@@ -110,6 +110,16 @@ import day87 from '../assets/images/hundred-projects/day-87.webp'
 import day88 from '../assets/images/hundred-projects/day-88.webp'
 import day89 from '../assets/images/hundred-projects/day-89.webp'
 import day90 from '../assets/images/hundred-projects/day-90.webp'
+import day91 from '../assets/images/hundred-projects/day-91.webp'
+import day92 from '../assets/images/hundred-projects/day-92.webp'
+import day93 from '../assets/images/hundred-projects/day-93.webp'
+import day94 from '../assets/images/hundred-projects/day-94.webp'
+import day95 from '../assets/images/hundred-projects/day-95.webp'
+import day96 from '../assets/images/hundred-projects/day-96.webp'
+import day97 from '../assets/images/hundred-projects/day-97.webp'
+import day98 from '../assets/images/hundred-projects/day-98.webp'
+import day99 from '../assets/images/hundred-projects/day-99.webp'
+import day100 from '../assets/images/hundred-projects/day-100.webp'
 
 export const plainTexts = {
   es: {
@@ -543,7 +553,7 @@ export const hundredProjectsPageTexts = {
   es: {},
   en: {
     title: "100 Projects",
-    description: "In 2024, I took on the 100 Days of Code challenge, creating 100 projects with HTML, CSS, and JavaScript. I used resources like 100jsprojects.com, Frontend Mentor, AsmrProg-YT, and my own ideas, incorporating Tailwind CSS into several projects. My progress is tracked on GitHub and LinkedIn. Currently, I&apos;m refining simpler projects to create more polished and advanced versions.",
+    description: "In 2024, I took on the 100 Days of Code challenge, creating 100 projects with HTML, CSS, and JavaScript. I used resources like 100jsprojects.com, Frontend Mentor, AsmrProg-YT, and my own ideas, incorporating Tailwind CSS into several projects. My progress is tracked on GitHub and LinkedIn. Currently, I am refining simpler projects to create more polished and advanced versions.",
     links: {
       link: "https://bryanquille.github.io/100-days-html-css-js/",
       githubLink: "https://github.com/bryanquille/100-days-html-css-js/tree/main/"
@@ -1459,6 +1469,109 @@ export const hundredProjectsPageTexts = {
           "HTML5",
           "CSS3",
           "JavaScript",
+        ],
+      },
+      {
+        name: "Take screenshot app",
+        day: "Day 91",
+        imageSrc: day91,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Steel profile geometry",
+        day: "Day 92",
+        imageSrc: day92,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Drag and drop box",
+        day: "Day 93",
+        imageSrc: day93,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Puzzle game",
+        day: "Day 94",
+        imageSrc: day94,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Profile card creation",
+        day: "Day 95",
+        imageSrc: day95,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
+        ],
+      },
+      {
+        name: "Ecommerce product page",
+        day: "Day 96",
+        imageSrc: day96,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
+        ],
+      },
+      {
+        name: "Image gallery with thumbnail",
+        day: "Day 97",
+        imageSrc: day97,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Friend request panel",
+        day: "Day 98",
+        imageSrc: day98,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Cookies banner",
+        day: "Day 99",
+        imageSrc: day99,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+        ],
+      },
+      {
+        name: "Multi-step form",
+        day: "Day 100",
+        imageSrc: day100,
+        techsList: [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Tailwindcss",
         ],
       },
     ]

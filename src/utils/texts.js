@@ -396,7 +396,7 @@ export const plainTexts = {
           },
         ],
         hundredProjects: {
-          name: "100 projects",
+          name: "100 short projects",
           desc: "I made the challenge 100 days of coding with HTML, CSS, and JS.",
           techsList: [
             "HTML5",
@@ -452,10 +452,6 @@ export const plainTexts = {
       location: "Quito - Ecuador",
       year: "2024 - 2025"
     },
-    hundredProjectsPage: {
-      name: "100 Projects",
-      desc: "I made the challenge: 100 days of coding with HTML, CSS, and JavaScript, where I developed some projectos from different resources.",
-    }
   },
 }
 
@@ -552,7 +548,7 @@ export const techs = [
 export const hundredProjectsPageTexts = {
   es: {},
   en: {
-    title: "100 Projects",
+    title: "100 short projects",
     description: "In 2024, I took on the 100 Days of Code challenge, creating 100 projects with HTML, CSS, and JavaScript. I used resources like 100jsprojects.com, Frontend Mentor, AsmrProg-YT, and my own ideas, incorporating Tailwind CSS into several projects. My progress is tracked on GitHub and LinkedIn. Currently, I am refining simpler projects to create more polished and advanced versions.",
     links: {
       link: "https://bryanquille.github.io/100-days-html-css-js/",

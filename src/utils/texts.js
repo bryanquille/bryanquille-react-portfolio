@@ -13,11 +13,13 @@ import googleMessagesIcon from '../assets/icons/social/googlemessages.svg'
 import html5Icon from '../assets/icons/techs/html5.svg'
 import css3Icon from '../assets/icons/techs/css3.svg'
 import javascriptIcon from '../assets/icons/techs/javascript.svg'
+import typescriptIcon from '../assets/icons/techs/typescript.svg'
 import pythonIcon from '../assets/icons/techs/python.svg'
 import reactIcon from '../assets/icons/techs/react.svg'
 import tailwindcssIcon from '../assets/icons/techs/tailwindcss.svg'
 import npmIcon from '../assets/icons/techs/npm.svg'
 import gitIcon from '../assets/icons/techs/git.svg'
+import openCodeIcon from '../assets/icons/techs/opencode-logo-dark.svg'
 
 // 100 projects
 import day1 from '../assets/images/hundred-projects/day-1.webp'
@@ -418,13 +420,15 @@ export const plainTexts = {
         skillsList: [
           "HTML5", 
           "CSS3", 
-          "JavaScript", 
+          "JavaScript",
+          "TypeScript",
           "Python", 
           "React",
           "Tailwindcss",
           "npm",
           "Git",
           "GitHub",
+          "OpenCode",
         ],
       },
       contact: {
@@ -450,7 +454,7 @@ export const plainTexts = {
     },
     footer: {
       location: "Quito - Ecuador",
-      year: "2024 - 2025"
+      year: "2024 - 2026"
     },
   },
 }
@@ -494,6 +498,14 @@ export const techs = [
       es: "Logotipo de JavaScript"
     },
     src: javascriptIcon,
+  },
+  {
+    name: "TypeScript",
+    altText: {
+      en: "TypeScript logo",
+      es: "Logotipo de TypeScript"
+    },
+    src: typescriptIcon,
   },
   {
     name: "Python",
@@ -542,6 +554,14 @@ export const techs = [
       es: "Logotipo de GitHub"
     },
     src: githubIcon,
+  },
+  {
+    name: "OpenCode",
+    altText: {
+      en: "OpenCode logo",
+      es: "Logotipo de OpenCode"
+    },
+    src: openCodeIcon,
   },
 ]
 
